@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            display: none;
+        }
+        p{
+            background-color: blue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+    </style>
+</head>
+<body onclick="alert(yellow.value)">
+    <span id="get">JavaScript Second class</span>
+    <h3 id="demo" onclick="document.getElementById('demo').innerHTML='This is JavaScript' ">Click me</h3>
+    <h1 id="boy">Text</h1>
+    <div>
+        <button id="boy" onclick="document.getElementById('boy').style.color ='Red' ">Red</button>
+        <button id="boy" onclick="document.getElementById('boy').style.color ='Blue' ">Blue</button>
+        <button id="boy" onclick="document.getElementById('boy').style.color ='Green' ">Green</button>
+    </div>
+    <div>
+        <button id="boy" onclick="document.getElementById('boy').style.fontSize='10px' ">10px</button>
+        <button id="boy" onclick="document.getElementById('boy').style.fontSize='20px' ">20px</button>
+        <button id="boy" onclick="document.getElementById('boy').style.fontSize='30px' ">30px</button>
+    </div>
+    
+    <body onclick="alert(yellow.value)">
+        <div style="padding: 30px; width: 60px; height: 50px;" onclick="">
+            <input style="width: 300px; height: 30px;" type="text" id="yellow" placeholder="" onfocus="document.getElementById('yellow').style.backgroundColor = 'yellow'">
+        </div>
+    </body>
+    <script>
+        window.alert('yellow')
+    </script>
+
+</body>
+</html>
